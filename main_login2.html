@@ -92,12 +92,74 @@
     <br /><br />
     <div class="container" transition:fade="{{delay: 1000, duration: 1000}}" class="wrap">
     <div style="width:600px;margin:0 auto;">
-          <div class="form-group">
+        <div class="form-group">
             <label class="form-label mt-4">Input Basic Information</label>
-            <div class="form-floating mb-3">
-              <input type="number" class="form-control" id="num_of_person" onKeyPress="if(event.keyCode == 13){generateTable();}">
-              <label for="floatingInput">인원</label>
-            </div>            
+            <div class="form-group">
+                <br />
+                <table>
+                    <tr>
+                        <th>시프트명</th>
+                        <th>코드</th>
+                        <th>시간대</th>
+                        <th>최소인원</th>
+                        <th>자동생성</th>
+                    </tr>
+                    <tr>
+                        <td>                        
+                          <input type="text" class="form-control" id="floatingInput" placeholder="오전">
+                        </td>                        
+                        <td>                        
+                          <input type="text" class="form-control" id="floatingInput" placeholder="A" style="width:50px;">
+                        </td>
+                        <td>
+                          <input type="text" class="form-control" id="floatingInput" placeholder="00:00 ~ 06:00">
+                        </td>
+                        <td>
+                          <input type="text" class="form-control" id="floatingInput" style="width:50px;">
+                        </td>
+                        <td>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                      </td>
+                    </tr>
+                    <tr>        
+                        <td>                        
+                          <input type="text" class="form-control" id="floatingInput" placeholder="주간">
+                        </td>                 
+                        <td>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="D" style="width:50px;">
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="00:00 ~ 06:00">
+                        </td>
+                        <td>
+                          <input type="text" class="form-control" id="floatingInput" style="width:50px;">
+                        </td>
+                        <td>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                        </td>
+                    </tr>
+                    <tr>      
+                        <td>                        
+                          <input type="text" class="form-control" id="floatingInput" placeholder="야간">
+                        </td>                   
+                        <td>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="N" style="width:50px;">
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="00:00 ~ 06:00">
+                        </td>
+                        <td>
+                          <input type="text" class="form-control" id="floatingInput" style="width:50px;">
+                        </td>
+                        <td>
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                        </td>
+                    </tr>                    
+                </table>
+
+              </div>
+
+ 
           </div>
                     
       
