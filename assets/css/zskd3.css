@@ -1,10 +1,6 @@
-.width50{width:50px;}
-.width80{width:80px;}
-.col5{
-    width:80px;
-    text-align: center;
-}
-.td_chkbox{
-    width:80px;
-    text-align: center;
-}
+.width50    {width:50px;text-align: center;}
+.width80    {width:80px;text-align: center;}
+.width100   {width:100px;text-align:center;}
+.width150   {width:150px;text-align: center;}
+.col5       {width:80px;text-align: center;}
+.td_chkbox  {width:130px;text-align: center;}
